@@ -27,12 +27,11 @@ export const defaultConfig = {
   blackUrlList: [], // Blacklist URL list
 
   // Is captcha enabled by default or not
-  enabledForRecaptcha: false,
-  enabledForRecaptchaV3: false,
-  enabledForHCaptcha: false,
-  enabledForFunCaptcha: false,
-  enabledForImageToText: false,
-  enabledForAwsCaptcha: false,
+  enabledForRecaptcha: true,
+  enabledForRecaptchaV3: true,
+  enabledForImageToText: true,
+  enabledForAwsCaptcha: true,
+  enabledForCloudflare: true,
 
   // Task type: click or token
   reCaptchaMode: 'click',
@@ -59,4 +58,4 @@ export const defaultConfig = {
   textCaptchaResultAttribute: 'capsolver-image-to-text-result', // ImageToText result element's attribute name
 
   textCaptchaModule: 'common', // ImageToText module
-	};
+};
