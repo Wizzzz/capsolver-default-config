@@ -27,11 +27,11 @@ export const defaultConfig = {
   blackUrlList: [], // Blacklist URL list
 
   // Is captcha enabled by default or not
-  enabledForRecaptcha: true,
-  enabledForRecaptchaV3: true,
-  enabledForImageToText: true,
-  enabledForAwsCaptcha: true,
-  enabledForCloudflare: true,
+  enabledForRecaptcha: false,
+  enabledForRecaptchaV3: false,
+  enabledForImageToText: false,
+  enabledForAwsCaptcha: false,
+  enabledForCloudflare: false,
 
   // Task type: click or token
   reCaptchaMode: 'click',
